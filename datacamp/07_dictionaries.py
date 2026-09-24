@@ -17,7 +17,7 @@ print(europe.keys())
 # Print out value that belongs to key 'norway'
 print(europe['norway'])
 
-# Para agregar un nuevo obj al diccionario
+# add new obj
 europe['Nuevo valor'] = 'asi agrego otro obj'
 
 
@@ -25,7 +25,7 @@ print(europe)
 print(europe.keys())
 print('Nuevo valor' in europe)
 
-#para actualizar un obj se pone tal cual que si estuviera agregando, los obj son unicos
+#update obj
 
 europe['Nuevo valor'] = 'asi actualizo un obj'
 
@@ -38,7 +38,7 @@ print('Nuevo valor' in europe)
 del(europe['Nuevo valor'])
 print(europe)
 print(europe.keys())
-print('Nuevo valor' in europe) #el resultado es True o False indicando si a key esta en el diccionario
+print('Nuevo valor' in europe) 
 
 
 # Dictionary of dictionaries
